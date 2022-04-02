@@ -1,0 +1,111 @@
+<meta charset="UTF-8">
+
+<script>
+
+  document.write("A idade da Flávia é <strong>29</strong>" + "<br>");
+
+
+</script>
+
+
+<script>
+    function pulaLinha() {
+      document.write("<br>");
+    }
+
+    function mostra(frase) {
+      document.write(frase);
+      pulaLinha();
+    }
+    
+
+    var idadeFlavia = 29
+    var idadeFernanda = 24
+    var diferencaIdade = idadeFlavia - idadeFernanda
+
+    mostra("Nossa diferença de idade é " + diferencaIdade);
+
+    var idadeMediaQuandoTemFilhos = 28;
+    var anoAtual = 2016; 
+
+    var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+    mostra(quantidadeDeGeracoes);
+
+
+    document.write("Eu acertei: " + 15/50*100 + "% <br>");
+
+    var ano = 2016;
+    mostra("Flávio tem " + (ano - 1977) + " anos");
+    mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+    ano = 2018;
+    mostra("Barney tem " + (ano - 1976) + " anos");
+
+    var minhaIdade = 20;
+
+    document.write("Eu nasci em " + (2016 - minhaIdade) + "<br>");
+
+    var tabuada = 8;
+    document.write(tabuada + " vezes 1 é " + tabuada * 1 + "<br>");
+    document.write(tabuada + " vezes 2 é " + tabuada * 2 + "<br>");
+    document.write(tabuada + " vezes 3 é " + tabuada * 3 + "<br>");
+    document.write(tabuada + " vezes 4 é " + tabuada * 4 + "<br>");
+    document.write(tabuada + " vezes 5 é " + tabuada * 5 + "<br>");
+    document.write(tabuada + " vezes 6 é " + tabuada * 6 + "<br>");
+    document.write(tabuada + " vezes 7 é " + tabuada * 7 + "<br>");
+    document.write(tabuada + " vezes 8 é " + tabuada * 8 + "<br>");
+    document.write(tabuada + " vezes 9 é " + tabuada * 9 + "<br>");
+    document.write(tabuada + " vezes 10 é " + tabuada * 10 + "<br>");
+
+    var idadeFlavio = 39;
+    var idadeJoaquim = 20;
+    var idadeBarney = 41;
+    var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+    document.write('A média das idades é ' + Math.round(media) + "<br>");
+
+    var idadeLinda = 12;
+    var idadeGuaraciara = 15;
+    var idadePerola = 13;
+    var totalIdades = idadeLinda + idadeGuaraciara + idadePerola
+
+    document.write( totalIdades / 3);
+    document.write(puloLinha);
+
+
+</script>
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+  var tanque = 40
+  var caminhoComGasolina = 480
+  var consumoDeGasolina = caminhoComGasolina / tanque
+
+  document.write("Consumo de gasolina: " + consumoDeGasolina + " km/L<br>")
+
+  var caminhoComAlcool = 300
+  var consumoDeAlccol = caminhoComAlcool / tanque
+
+  document.write("Consumo de álcool: " + consumoDeAlccol + " km/L<br>")
+
+</script>
+
+<script>
+
+  function pulaLinha() {
+    document.write("<br><hr><br>");
+  }
+  
+  function mostra(frase) {
+    document.write("<big>" + frase + "</big>");
+    pulaLinha();
+  }
+  
+  var ano = 2019;
+  mostra("Eu nasci em : " + (ano - 25));
+  mostra("Adriano nasceu em : " + (ano - 26));
+  mostra("Paulo nasceu em : " + (ano - 32));
+  
+  </script>
